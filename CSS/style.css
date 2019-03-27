@@ -1,0 +1,112 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+nav {
+  margin: auto;
+  background-color: #F8F8F8;
+  padding: 5% 0 5% 0;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 17px;
+  font-family: "arial", sans-serif;
+}
+
+h1 {
+  font-size: 100%;
+  margin: 0 auto;
+  padding-right: 10%;
+  text-align: center;
+  font-family: "arial", sans-serif;
+}
+
+h2 {
+  margin: 0 auto;
+  font-family: "SF Pro Display", "SF", sans-serif;
+  font-size: 17px;
+  color: #007AFF;
+  float: left;
+  font-weight: 400;
+}
+
+.map {
+  padding-left: 6%;
+  padding-top: .5%;
+}
+
+h3 {
+  margin: .5% 0 .5% 0;
+  padding-right: 65%;
+  color: #1D5583;
+  font-size: 100%;
+  font-weight: 550;
+  text-align: left;
+}
+
+h4 {
+  margin: .5% 0 .5% 0;
+  padding-right: 65%;
+  color: #1D5583;
+  font-size: 150%;
+  font-weight: 550;
+}
+
+h5 {
+  margin: 1% 0 1% 0;
+  color: #818181;
+  font-weight: 400;
+  font-size: 100%;
+}
+
+h6 {
+  font-size: 100%;
+  margin: 1% 0 1% 0;
+  color: #1D5583;
+  font-weight: 400;
+}
+
+.Eastbound {
+  background-color: #F1F1F2;
+  padding: 1% 0 1% 0%;
+}
+
+.Northbound, .Southbound, .Reroute, .Out-Of-Service {
+  background-color: #F1F1F2;
+  padding: 1% 0 1% 6%;
+}
+
+.Randolph-Harbor, .Stony-Island, .Cottage-Grove, .Madison {
+  padding-top: 4%;
+  padding-left: 6%;
+  padding-bottom: 4%;
+  border-bottom: solid;
+  border-width: thin;
+  border-color: #818181;
+}
+
+ .Navy-Pier, .Devon-Clark, .Navy-Pier-Two, .Jackson-Park, .Streeterville {
+   padding-top: 4%;
+   padding-bottom: 4%;
+   padding-left: 6%;
+ }
+
+.Navy-Pier:hover, .Devon-Clark:hover, .Navy-Pier-Two:hover, .Jackson-Park:hover, .Streeterville:hover, .Randolph-Harbor:hover, .Stony-Island:hover, .Cottage-Grove:hover, .Madison:hover{
+  background-color: #E3E3E3;
+}
+
+.fa-chevron-left {
+	position: relative;
+  float: left;
+	padding: 1% 1% 10% 1%;
+  color: #007AFF;
+}
+
+.arrow {
+	position: relative;
+  float: right;
+  padding: 0px 10px 0px 0;
+  bottom: 70px;
+  color: #1D5583;
+}
