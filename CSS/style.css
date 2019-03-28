@@ -2,20 +2,15 @@
   box-sizing: border-box;
 }
 
-/* Status Bar */
+/* Images */
 
-img {
-  margin: 0 auto;
-  align-items: center;
-  width: 100%;
-}
 
 /* Status bar, and map with arrow */
 
 nav {
   margin: 0;
   background-color: #F8F8F8;
-  padding: 0 0 5% 0;
+  padding: 0% 0 3% 0;
 }
 
 header {
@@ -28,13 +23,10 @@ header {
   left: 15%;
 }
 
-busybus-routes {
-  text-align: left;
-}
-
 body {
   margin: 0;
   font-size: 17px;
+  font-weight: lighter;
   font-family: "arial", sans-serif;
 }
 
@@ -44,7 +36,7 @@ h1 {
   margin: 0 auto;
   font-size: 100%;
   padding-right: 10%;
-  padding-bottom: 5%;
+  padding-bottom: 8%;
   text-align: center;
   font-family: "arial", sans-serif;
 }
@@ -80,28 +72,79 @@ h5 {
   color: #818181;
   font-weight: 400;
   font-size: 100%;
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: .25% .75% .25% .75%;
+  text-align: center;
 }
 
 h6 {
   font-size: 100%;
   margin: 1% 0 1% 0;
-  color: #1D5583;
-  font-weight: 400;
+  color: #000000;
+  font-weight: 200;
 }
 
 /* End of text information*/
 
+input {
+  position: relative;
+  width: 92%;
+  height: 35px;
+  background-color: #EBEBEC;
+  background-image:url(../image/search-icon.png);
+  background-repeat: no-repeat;
+  background-size: 25px 35px;
+  border-style: none;
+  border-radius: 10px;
+  top: 9%;
+  right: 3%;
+  font-style: "SF Pro Display", "SF", sans-serif;
+  font-size: 100%;
+  font-weight: 200;
+  padding-left: 7%;
+}
+
+/* Images */
+
+.status {
+  position: relative;
+  margin: 0 auto;
+  align-items: center;
+  width: 100%;
+}
+
+.microphone {
+  position: relative;
+  float: right;
+  padding: 0px 10px 0px 0;
+  right: 12px;
+  bottom: 30px;
+  color: #1D5583;
+  width: 30px;
+}
+
+/* Images */
+
+.frequency {
+  display: inline-block;
+  background-color: #1D5583;
+  border-style: solid;
+  border-color: #1D5583;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: .25% .75% .25% .75%;
+}
+
+.frequency h6 {
+  color: #fff;
+}
+
 .map {
   padding-left: 6%;
   padding-top: .5%;
-}
-
-.Search {
-  position: absolute;
-  background-color: #000;
-  float: left;
-  top: 9%;
-  left: 15%;
 }
 
 .Randolph-Harbor, .Stony-Island, .Cottage-Grove, .Madison {
