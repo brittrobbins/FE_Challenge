@@ -2,22 +2,49 @@
   box-sizing: border-box;
 }
 
+/* Status Bar */
+
+img {
+  margin: 0 auto;
+  align-items: center;
+  width: 100%;
+}
+
+/* Status bar, and map with arrow */
+
 nav {
-  margin: auto;
+  margin: 0;
   background-color: #F8F8F8;
-  padding: 5% 0 5% 0;
+  padding: 0 0 5% 0;
+}
+
+header {
+  margin: 0 auto;
+  background-color: #F8F8F8;
+  font-family: "arial", sans-serif;
+  font-size: 100%;
+  position: relative;
+  float: left;
+  left: 15%;
+}
+
+busybus-routes {
+  text-align: left;
 }
 
 body {
-  margin: 0 auto;
+  margin: 0;
   font-size: 17px;
   font-family: "arial", sans-serif;
 }
 
+/* Text information*/
+
 h1 {
-  font-size: 100%;
   margin: 0 auto;
+  font-size: 100%;
   padding-right: 10%;
+  padding-bottom: 5%;
   text-align: center;
   font-family: "arial", sans-serif;
 }
@@ -31,18 +58,13 @@ h2 {
   font-weight: 400;
 }
 
-.map {
-  padding-left: 6%;
-  padding-top: .5%;
-}
-
 h3 {
-  margin: .5% 0 .5% 0;
-  padding-right: 65%;
+  margin: 0;
+  background-color: #F1F1F2;
+  padding: 2% 0 2% 6%;
   color: #1D5583;
   font-size: 100%;
   font-weight: 550;
-  text-align: left;
 }
 
 h4 {
@@ -67,14 +89,19 @@ h6 {
   font-weight: 400;
 }
 
-.Eastbound {
-  background-color: #F1F1F2;
-  padding: 1% 0 1% 0%;
+/* End of text information*/
+
+.map {
+  padding-left: 6%;
+  padding-top: .5%;
 }
 
-.Northbound, .Southbound, .Reroute, .Out-Of-Service {
-  background-color: #F1F1F2;
-  padding: 1% 0 1% 6%;
+.Search {
+  position: absolute;
+  background-color: #000;
+  float: left;
+  top: 9%;
+  left: 15%;
 }
 
 .Randolph-Harbor, .Stony-Island, .Cottage-Grove, .Madison {
@@ -96,6 +123,8 @@ h6 {
   background-color: #E3E3E3;
 }
 
+/* Arrow information*/
+
 .fa-chevron-left {
 	position: relative;
   float: left;
@@ -110,3 +139,5 @@ h6 {
   bottom: 70px;
   color: #1D5583;
 }
+
+/* End of arrow information*/

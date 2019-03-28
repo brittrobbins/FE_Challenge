@@ -10,20 +10,26 @@
   </head>
   <body>
     <nav>
+      <div class="status-bar">
+        <img src="Image/status-bar.png" class="status" alt="status bar">
+      </div>
       <div class="Arrow-right">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
       </div>
       <div class="preview map">
-      <h2>Map</h2>
+        <h2>Map</h2>
       </div>
-      <div class="preview route">
-      <h1>Busybus Routes</h1>
-      </div>
+      <header>
+        <h1>Busybus&nbsp;Routes</h1>
+      </header>
+      <center>
+        <form method="get" action="/search_bar" id="search_bar">
+          <input name="q" type="text" size="30" placeholder="Search"/>
+        </form>
+      </center>
     </nav>
     <section class="Bus-Routes">
-      <div class="Eastbound">
-        <h3>Eastbound</h3>
-      </div>
+      <h3>Eastbound</h3>
       <div class="Randolph-Harbor">
         <h4>2:40pm</h4>
         <h5>60</h5>
@@ -42,9 +48,7 @@
           <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
         </div>
       </div>
-      <div class="Northbound">
-        <h3>Northbound</h3>
-      </div>
+      <h3>Northbound</h3>
       <div class="Devon-Clark">
         <h4>2:42pm</h4>
         <h5>151</h5>
@@ -54,9 +58,7 @@
           <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
         </div>
       </div>
-      <div class="Southbound">
-        <h3>Southbound</h3>
-      </div>
+      <h3>Southbound</h3>
       <div class="Stony-Island">
         <h4>2:46pm</h4>
         <h5>J14</h5>
@@ -75,9 +77,7 @@
           <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
         </div>
       </div>
-      <div class="Reroute">
-        <h3>Reroute</h3>
-      </div>
+      <h3>Reroute</h3>
       <div class="Jackson-Park">
         <h4>2:48pm</h4>
         <h5>6x</h5>
@@ -87,9 +87,7 @@
           <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
         </div>
       </div>
-      <div class="Out-Of-Service">
-        <h3>Out&nbsp;of&nbsp;Service</h3>
-      </div>
+      <h3>Out&nbsp;of&nbsp;Service</h3>
       <div class="Cottage-Grove">
         <h4>Resumes&nbsp;12:10am</h4>
         <h5>4</h5>
